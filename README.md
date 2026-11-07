@@ -6,7 +6,7 @@ A Q-learning agent learns to choose the temperature and concentration of a simul
 
 ## Learning curve vs baselines
 
-![Learning curve: Q-learning vs random and hill-climb baselines](images/fig2_learning_curve.png)
+![Learning curve: Q-learning vs random and hill-climb baselines](fig2_learning_curve.png)
 
 The green line is the greedy Q-learning policy evaluated during training (mean +/- SD over 5 seeds). The dashed lines are the random baseline and the hill-climbing heuristic. The dotted line is the best possible yield (95%).
 
@@ -16,7 +16,7 @@ The green line is the greedy Q-learning policy evaluated during training (mean +
 | Hill-climb heuristic | 27.0 | 31.6 | 70.0 | 11.5 |
 | **Q-learning (RL)** | **78.5** | **85.8** | **95.0** | **0.4** |
 
-![RL vs baselines](images/fig3_comparison.png)
+![RL vs baselines](fig3_comparison.png)
 
 ## Files
 - `RL_Homework2_SelfDrivingLab.ipynb` - full Google Colab implementation
